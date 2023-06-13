@@ -1,0 +1,19 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "--",
+  "MLModelCreatorDefinedKey" : {
+    "target" : "label",
+    "com.apple.coreml.model.preview.type" : "activityClassifier",
+    "com.apple.createml.version" : "13.3.1",
+    "max_iterations" : "10",
+    "session_id" : "session_id",
+    "com.apple.createml.app.tag" : "99.2",
+    "version" : "2",
+    "type" : "activity_classifier",
+    "features" : "accex,accey,accez,gyrox,gyroy,gyroz",
+    "prediction_window" : "100",
+    "com.apple.createml.app.version" : "4.0"
+  },
+  "MLModelAuthorKey" : "shirane kaoru",
+  "MLModelLicenseKey" : "--"
+}

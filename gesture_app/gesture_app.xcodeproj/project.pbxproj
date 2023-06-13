@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		413BAA002A33D5DE00232FA1 /* gesture_app Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 413BA9FF2A33D5DE00232FA1 /* gesture_app Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		413BAA052A33D5DE00232FA1 /* gesture_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BAA042A33D5DE00232FA1 /* gesture_appApp.swift */; };
+		413BAA072A33D5DE00232FA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BAA062A33D5DE00232FA1 /* ContentView.swift */; };
+		413BAA092A33D5E100232FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413BAA082A33D5E100232FA1 /* Assets.xcassets */; };
+		413BAA0C2A33D5E100232FA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413BAA0B2A33D5E100232FA1 /* Preview Assets.xcassets */; };
+		413BAA162A33D5E100232FA1 /* gesture_app_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BAA152A33D5E100232FA1 /* gesture_app_Watch_AppTests.swift */; };
+		413BAA202A33D5E200232FA1 /* gesture_app_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BAA1F2A33D5E200232FA1 /* gesture_app_Watch_AppUITests.swift */; };
+		413BAA222A33D5E200232FA1 /* gesture_app_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BAA212A33D5E200232FA1 /* gesture_app_Watch_AppUITestsLaunchTests.swift */; };
+		413BAA3C2A375B7800232FA1 /* Gestures_Classifier_t.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 413BAA3B2A375B7800232FA1 /* Gestures_Classifier_t.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		413BAA012A33D5DE00232FA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 413BA9F32A33D5DD00232FA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413BA9FE2A33D5DE00232FA1;
+			remoteInfo = "gesture_app Watch App";
+		};
+		413BAA122A33D5E100232FA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 413BA9F32A33D5DD00232FA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413BA9FE2A33D5DE00232FA1;
+			remoteInfo = "gesture_app Watch App";
+		};
+		413BAA1C2A33D5E200232FA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 413BA9F32A33D5DD00232FA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 413BA9FE2A33D5DE00232FA1;
+			remoteInfo = "gesture_app Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		413BAA282A33D5E200232FA1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				413BAA002A33D5DE00232FA1 /* gesture_app Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		413BA9F92A33D5DE00232FA1 /* gesture_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gesture_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		413BA9FF2A33D5DE00232FA1 /* gesture_app Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gesture_app Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		413BAA042A33D5DE00232FA1 /* gesture_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gesture_appApp.swift; sourceTree = "<group>"; };
+		413BAA062A33D5DE00232FA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		413BAA082A33D5E100232FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		413BAA0B2A33D5E100232FA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		413BAA112A33D5E100232FA1 /* gesture_app Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gesture_app Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		413BAA152A33D5E100232FA1 /* gesture_app_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gesture_app_Watch_AppTests.swift; sourceTree = "<group>"; };
+		413BAA1B2A33D5E200232FA1 /* gesture_app Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gesture_app Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		413BAA1F2A33D5E200232FA1 /* gesture_app_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gesture_app_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		413BAA212A33D5E200232FA1 /* gesture_app_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gesture_app_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		413BAA3B2A375B7800232FA1 /* Gestures_Classifier_t.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Gestures_Classifier_t.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		413BA9FC2A33D5DE00232FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BAA0E2A33D5E100232FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BAA182A33D5E200232FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		413BA9F22A33D5DD00232FA1 = {
+			isa = PBXGroup;
+			children = (
+				413BAA032A33D5DE00232FA1 /* gesture_app Watch App */,
+				413BAA142A33D5E100232FA1 /* gesture_app Watch AppTests */,
+				413BAA1E2A33D5E200232FA1 /* gesture_app Watch AppUITests */,
+				413BA9FA2A33D5DE00232FA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		413BA9FA2A33D5DE00232FA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				413BA9F92A33D5DE00232FA1 /* gesture_app.app */,
+				413BA9FF2A33D5DE00232FA1 /* gesture_app Watch App.app */,
+				413BAA112A33D5E100232FA1 /* gesture_app Watch AppTests.xctest */,
+				413BAA1B2A33D5E200232FA1 /* gesture_app Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		413BAA032A33D5DE00232FA1 /* gesture_app Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				413BAA042A33D5DE00232FA1 /* gesture_appApp.swift */,
+				413BAA3B2A375B7800232FA1 /* Gestures_Classifier_t.mlmodel */,
+				413BAA062A33D5DE00232FA1 /* ContentView.swift */,
+				413BAA082A33D5E100232FA1 /* Assets.xcassets */,
+				413BAA0A2A33D5E100232FA1 /* Preview Content */,
+			);
+			path = "gesture_app Watch App";
+			sourceTree = "<group>";
+		};
+		413BAA0A2A33D5E100232FA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				413BAA0B2A33D5E100232FA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		413BAA142A33D5E100232FA1 /* gesture_app Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				413BAA152A33D5E100232FA1 /* gesture_app_Watch_AppTests.swift */,
+			);
+			path = "gesture_app Watch AppTests";
+			sourceTree = "<group>";
+		};
+		413BAA1E2A33D5E200232FA1 /* gesture_app Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				413BAA1F2A33D5E200232FA1 /* gesture_app_Watch_AppUITests.swift */,
+				413BAA212A33D5E200232FA1 /* gesture_app_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "gesture_app Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		413BA9F82A33D5DE00232FA1 /* gesture_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413BAA292A33D5E200232FA1 /* Build configuration list for PBXNativeTarget "gesture_app" */;
+			buildPhases = (
+				413BA9F72A33D5DE00232FA1 /* Resources */,
+				413BAA282A33D5E200232FA1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				413BAA022A33D5DE00232FA1 /* PBXTargetDependency */,
+			);
+			name = gesture_app;
+			productName = gesture_app;
+			productReference = 413BA9F92A33D5DE00232FA1 /* gesture_app.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		413BA9FE2A33D5DE00232FA1 /* gesture_app Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413BAA252A33D5E200232FA1 /* Build configuration list for PBXNativeTarget "gesture_app Watch App" */;
+			buildPhases = (
+				413BA9FB2A33D5DE00232FA1 /* Sources */,
+				413BA9FC2A33D5DE00232FA1 /* Frameworks */,
+				413BA9FD2A33D5DE00232FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gesture_app Watch App";
+			productName = "gesture_app Watch App";
+			productReference = 413BA9FF2A33D5DE00232FA1 /* gesture_app Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		413BAA102A33D5E100232FA1 /* gesture_app Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413BAA2C2A33D5E200232FA1 /* Build configuration list for PBXNativeTarget "gesture_app Watch AppTests" */;
+			buildPhases = (
+				413BAA0D2A33D5E100232FA1 /* Sources */,
+				413BAA0E2A33D5E100232FA1 /* Frameworks */,
+				413BAA0F2A33D5E100232FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				413BAA132A33D5E100232FA1 /* PBXTargetDependency */,
+			);
+			name = "gesture_app Watch AppTests";
+			productName = "gesture_app Watch AppTests";
+			productReference = 413BAA112A33D5E100232FA1 /* gesture_app Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		413BAA1A2A33D5E200232FA1 /* gesture_app Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 413BAA2F2A33D5E200232FA1 /* Build configuration list for PBXNativeTarget "gesture_app Watch AppUITests" */;
+			buildPhases = (
+				413BAA172A33D5E200232FA1 /* Sources */,
+				413BAA182A33D5E200232FA1 /* Frameworks */,
+				413BAA192A33D5E200232FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				413BAA1D2A33D5E200232FA1 /* PBXTargetDependency */,
+			);
+			name = "gesture_app Watch AppUITests";
+			productName = "gesture_app Watch AppUITests";
+			productReference = 413BAA1B2A33D5E200232FA1 /* gesture_app Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		413BA9F32A33D5DD00232FA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					413BA9F82A33D5DE00232FA1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					413BA9FE2A33D5DE00232FA1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					413BAA102A33D5E100232FA1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 413BA9FE2A33D5DE00232FA1;
+					};
+					413BAA1A2A33D5E200232FA1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 413BA9FE2A33D5DE00232FA1;
+					};
+				};
+			};
+			buildConfigurationList = 413BA9F62A33D5DD00232FA1 /* Build configuration list for PBXProject "gesture_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 413BA9F22A33D5DD00232FA1;
+			productRefGroup = 413BA9FA2A33D5DE00232FA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				413BA9F82A33D5DE00232FA1 /* gesture_app */,
+				413BA9FE2A33D5DE00232FA1 /* gesture_app Watch App */,
+				413BAA102A33D5E100232FA1 /* gesture_app Watch AppTests */,
+				413BAA1A2A33D5E200232FA1 /* gesture_app Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		413BA9F72A33D5DE00232FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BA9FD2A33D5DE00232FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAA0C2A33D5E100232FA1 /* Preview Assets.xcassets in Resources */,
+				413BAA092A33D5E100232FA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BAA0F2A33D5E100232FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BAA192A33D5E200232FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		413BA9FB2A33D5DE00232FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAA072A33D5DE00232FA1 /* ContentView.swift in Sources */,
+				413BAA3C2A375B7800232FA1 /* Gestures_Classifier_t.mlmodel in Sources */,
+				413BAA052A33D5DE00232FA1 /* gesture_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BAA0D2A33D5E100232FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAA162A33D5E100232FA1 /* gesture_app_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		413BAA172A33D5E200232FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BAA222A33D5E200232FA1 /* gesture_app_Watch_AppUITestsLaunchTests.swift in Sources */,
+				413BAA202A33D5E200232FA1 /* gesture_app_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		413BAA022A33D5DE00232FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 413BA9FE2A33D5DE00232FA1 /* gesture_app Watch App */;
+			targetProxy = 413BAA012A33D5DE00232FA1 /* PBXContainerItemProxy */;
+		};
+		413BAA132A33D5E100232FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 413BA9FE2A33D5DE00232FA1 /* gesture_app Watch App */;
+			targetProxy = 413BAA122A33D5E100232FA1 /* PBXContainerItemProxy */;
+		};
+		413BAA1D2A33D5E200232FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 413BA9FE2A33D5DE00232FA1 /* gesture_app Watch App */;
+			targetProxy = 413BAA1C2A33D5E200232FA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		413BAA232A33D5E200232FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		413BAA242A33D5E200232FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		413BAA262A33D5E200232FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gesture_app Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = gesture_app;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gesture-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		413BAA272A33D5E200232FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gesture_app Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = gesture_app;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gesture-app.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		413BAA2A2A33D5E200232FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				INFOPLIST_KEY_CFBundleDisplayName = gesture_app;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gesture-app123";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		413BAA2B2A33D5E200232FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				INFOPLIST_KEY_CFBundleDisplayName = gesture_app;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gesture-app123";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		413BAA2D2A33D5E200232FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gesture-app-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gesture_app Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gesture_app Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		413BAA2E2A33D5E200232FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gesture-app-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gesture_app Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gesture_app Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		413BAA302A33D5E200232FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gesture-app-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "gesture_app Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		413BAA312A33D5E200232FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.gesture-app-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "gesture_app Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		413BA9F62A33D5DD00232FA1 /* Build configuration list for PBXProject "gesture_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413BAA232A33D5E200232FA1 /* Debug */,
+				413BAA242A33D5E200232FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413BAA252A33D5E200232FA1 /* Build configuration list for PBXNativeTarget "gesture_app Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413BAA262A33D5E200232FA1 /* Debug */,
+				413BAA272A33D5E200232FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413BAA292A33D5E200232FA1 /* Build configuration list for PBXNativeTarget "gesture_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413BAA2A2A33D5E200232FA1 /* Debug */,
+				413BAA2B2A33D5E200232FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413BAA2C2A33D5E200232FA1 /* Build configuration list for PBXNativeTarget "gesture_app Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413BAA2D2A33D5E200232FA1 /* Debug */,
+				413BAA2E2A33D5E200232FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		413BAA2F2A33D5E200232FA1 /* Build configuration list for PBXNativeTarget "gesture_app Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				413BAA302A33D5E200232FA1 /* Debug */,
+				413BAA312A33D5E200232FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 413BA9F32A33D5DD00232FA1 /* Project object */;
+}

@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "8BCE59B6-55C3-4D90-8B77-D0A6BEB5BEEB": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "Gestures_Classifier_t.mlmodel",
+            "path": "com.apple.CoreML/Gestures_Classifier_t.mlmodel"
+        },
+        "9D9460C6-2A55-496B-9D12-51C9089904B9": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "F5C6809B-EF6C-4FF8-A6B4-8EDCCAF52F41": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        }
+    },
+    "rootModelIdentifier": "8BCE59B6-55C3-4D90-8B77-D0A6BEB5BEEB"
+}

@@ -1,0 +1,39 @@
+{
+  "Outputs" : {
+    "label" : {
+      "MLFeatureShortDescription" : "Class label of top prediction"
+    },
+    "stateOut" : {
+      "MLFeatureShortDescription" : "LSTM state output"
+    },
+    "labelProbability" : {
+      "MLFeatureShortDescription" : "Activity prediction probabilities"
+    }
+  },
+  "Inputs" : {
+    "gyroy" : {
+      "MLFeatureShortDescription" : "gyroy window input"
+    },
+    "accex" : {
+      "MLFeatureShortDescription" : "accex window input"
+    },
+    "accez" : {
+      "MLFeatureShortDescription" : "accez window input"
+    },
+    "stateIn" : {
+      "MLFeatureShortDescription" : "LSTM state input"
+    },
+    "gyrox" : {
+      "MLFeatureShortDescription" : "gyrox window input"
+    },
+    "gyroz" : {
+      "MLFeatureShortDescription" : "gyroz window input"
+    },
+    "accey" : {
+      "MLFeatureShortDescription" : "accey window input"
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}
